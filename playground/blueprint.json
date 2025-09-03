@@ -1,25 +1,39 @@
 {
-  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-  "landingPage": "/",
-  "preferredVersions": {
-    "php": "8.2",
-    "wp": "latest"
-  },
-  "steps": [
-    {
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Loading, activating, and configuring a theme from a GitHub repository.",
+		"description": "This is a good example of typical steps used on a theme's loading, activation and configuration",
+		"author": "richtabor",
+		"categories": ["theme"]
+	},
+	"landingPage": "/wp-admin/site-editor.php",
+	"login": true,
+	"steps": [
+		{
+			"step": "resetData"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/rewrite.php",
+			"data": "<?php /* Use pretty permalinks */ add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
+		},
+		{
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
 				"url": "https://github.com/saulirajala/kontentti-sauli-verkkosivu/archive/refs/heads/main.zip"
+			},
+			"options": {
+				"activate": true
 			}
-		},
-    {
-      "step": "activateTheme",
-      "themeFolderName": "kontentti-sauli-verkkosivu"
-    },
-    {
-      "step": "runPHP",
-      "code": "<?php $id = wp_insert_post(['post_title' => 'Etusivu', 'post_content' => '<!-- wp:heading --><h2>Moi Playground!</h2><!-- /wp:heading -->', 'post_status' => 'publish', 'post_type' => 'page']); update_option('show_on_front', 'page'); update_option('page_on_front', $id); ?>"
-    }
-  ]
+		}
+	],
+	"siteOptions": {
+		"blogname": "Kontentti-Sauli",
+		"blogdescription": "Foo bar",
+		"show_on_front": "page",
+		"page_on_front": "6",
+		"page_for_posts": "2"
+	},
+	"plugins": ["create-block-theme"]
 }
