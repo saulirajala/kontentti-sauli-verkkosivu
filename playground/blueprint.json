@@ -7,10 +7,7 @@
   "steps": [
     {
       "step": "installTheme",
-      "themeZipFile": {
-        "resource": "url",
-        "url": "https://github.com/saulirajala/kontentti-sauli-verkkosivu/archive/refs/heads/main.zip"
-      },
+      "themeZipUrl": "https://github.com/saulirajala/kontentti-sauli-verkkosivu/archive/refs/heads/main.zip",
       "themeFolderName": "kontentti-sauli-verkkosivu-main"
     },
     {
