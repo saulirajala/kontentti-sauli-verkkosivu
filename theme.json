@@ -1,5 +1,4 @@
 {
-    "$schema": "https://schemas.wp.org/wp/6.8/theme.json",
     "customTemplates": [
         {
             "name": "page-no-title",
@@ -138,6 +137,157 @@
                     "fontFamily": "\"Fira Code\", monospace",
                     "name": "Fira Code",
                     "slug": "fira-code"
+                },
+                {
+                    "name": "Raleway",
+                    "slug": "raleway",
+                    "fontFamily": "Raleway, sans-serif",
+                    "fontFace": [
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-100-normal.woff2"
+                            ],
+                            "fontWeight": "100",
+                            "fontStyle": "normal",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-200-normal.woff2"
+                            ],
+                            "fontWeight": "200",
+                            "fontStyle": "normal",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-300-normal.woff2"
+                            ],
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-400-normal.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-500-normal.woff2"
+                            ],
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-600-normal.woff2"
+                            ],
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-700-normal.woff2"
+                            ],
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-800-normal.woff2"
+                            ],
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-900-normal.woff2"
+                            ],
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-100-italic.woff2"
+                            ],
+                            "fontWeight": "100",
+                            "fontStyle": "italic",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-200-italic.woff2"
+                            ],
+                            "fontWeight": "200",
+                            "fontStyle": "italic",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-300-italic.woff2"
+                            ],
+                            "fontWeight": "300",
+                            "fontStyle": "italic",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-400-italic.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-500-italic.woff2"
+                            ],
+                            "fontWeight": "500",
+                            "fontStyle": "italic",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-600-italic.woff2"
+                            ],
+                            "fontWeight": "600",
+                            "fontStyle": "italic",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-700-italic.woff2"
+                            ],
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-800-italic.woff2"
+                            ],
+                            "fontWeight": "800",
+                            "fontStyle": "italic",
+                            "fontFamily": "Raleway"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/raleway/raleway-900-italic.woff2"
+                            ],
+                            "fontWeight": "900",
+                            "fontStyle": "italic",
+                            "fontFamily": "Raleway"
+                        }
+                    ]
                 }
             ],
             "fontSizes": [
@@ -238,1165 +388,9 @@
                     "fontWeight": "300"
                 }
             },
-            "core/column": {
-                "variations": {
-                    "section-1": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            },
-                            "core/site-title": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-5)",
-                            "text": "var(--wp--preset--color--contrast)"
-                        }
-                    },
-                    "section-2": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-2)",
-                            "text": "var(--wp--preset--color--contrast)"
-                        }
-                    },
-                    "section-3": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-1)",
-                            "text": "var(--wp--preset--color--contrast)"
-                        }
-                    },
-                    "section-4": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-3)",
-                            "text": "var(--wp--preset--color--accent-2)"
-                        },
-                        "elements": {
-                            "button": {
-                                ":hover": {
-                                    "color": {
-                                        "background": "color-mix(in srgb, var(--wp--preset--color--accent-2) 85%, transparent)",
-                                        "text": "var(--wp--preset--color--accent-3)"
-                                    }
-                                },
-                                "color": {
-                                    "background": "var(--wp--preset--color--accent-2)",
-                                    "text": "var(--wp--preset--color--accent-3)"
-                                }
-                            }
-                        }
-                    },
-                    "section-5": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--contrast)",
-                            "text": "var(--wp--preset--color--base)"
-                        },
-                        "elements": {
-                            "button": {
-                                ":hover": {
-                                    "color": {
-                                        "background": "color-mix(in srgb, var(--wp--preset--color--base) 80%, transparent)",
-                                        "text": "var(--wp--preset--color--contrast)"
-                                    }
-                                },
-                                "color": {
-                                    "background": "var(--wp--preset--color--base)",
-                                    "text": "var(--wp--preset--color--contrast)"
-                                }
-                            }
-                        }
-                    }
-                }
-            },
             "core/columns": {
                 "spacing": {
                     "blockGap": "var(--wp--preset--spacing--50)"
-                },
-                "variations": {
-                    "section-1": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            },
-                            "core/site-title": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-5)",
-                            "text": "var(--wp--preset--color--contrast)"
-                        }
-                    },
-                    "section-2": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-2)",
-                            "text": "var(--wp--preset--color--contrast)"
-                        }
-                    },
-                    "section-3": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-1)",
-                            "text": "var(--wp--preset--color--contrast)"
-                        }
-                    },
-                    "section-4": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-3)",
-                            "text": "var(--wp--preset--color--accent-2)"
-                        },
-                        "elements": {
-                            "button": {
-                                ":hover": {
-                                    "color": {
-                                        "background": "color-mix(in srgb, var(--wp--preset--color--accent-2) 85%, transparent)",
-                                        "text": "var(--wp--preset--color--accent-3)"
-                                    }
-                                },
-                                "color": {
-                                    "background": "var(--wp--preset--color--accent-2)",
-                                    "text": "var(--wp--preset--color--accent-3)"
-                                }
-                            }
-                        }
-                    },
-                    "section-5": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--contrast)",
-                            "text": "var(--wp--preset--color--base)"
-                        },
-                        "elements": {
-                            "button": {
-                                ":hover": {
-                                    "color": {
-                                        "background": "color-mix(in srgb, var(--wp--preset--color--base) 80%, transparent)",
-                                        "text": "var(--wp--preset--color--contrast)"
-                                    }
-                                },
-                                "color": {
-                                    "background": "var(--wp--preset--color--base)",
-                                    "text": "var(--wp--preset--color--contrast)"
-                                }
-                            }
-                        }
-                    }
                 }
             },
             "core/comment-author-name": {
@@ -1504,630 +498,6 @@
                     "fontSize": "var(--wp--preset--font-size--medium)"
                 }
             },
-            "core/group": {
-                "variations": {
-                    "section-1": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            },
-                            "core/site-title": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-5)",
-                            "text": "var(--wp--preset--color--contrast)"
-                        }
-                    },
-                    "section-2": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-2)",
-                            "text": "var(--wp--preset--color--contrast)"
-                        }
-                    },
-                    "section-3": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-1)",
-                            "text": "var(--wp--preset--color--contrast)"
-                        }
-                    },
-                    "section-4": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--accent-3)",
-                            "text": "var(--wp--preset--color--accent-2)"
-                        },
-                        "elements": {
-                            "button": {
-                                ":hover": {
-                                    "color": {
-                                        "background": "color-mix(in srgb, var(--wp--preset--color--accent-2) 85%, transparent)",
-                                        "text": "var(--wp--preset--color--accent-3)"
-                                    }
-                                },
-                                "color": {
-                                    "background": "var(--wp--preset--color--accent-2)",
-                                    "text": "var(--wp--preset--color--accent-3)"
-                                }
-                            }
-                        }
-                    },
-                    "section-5": {
-                        "blocks": {
-                            "core/comment-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-date": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-edit-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/comment-reply-link": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-author-name": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-date": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "color-mix(in srgb, currentColor 85%, transparent)"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/post-terms": {
-                                "color": {
-                                    "text": "currentColor"
-                                },
-                                "elements": {
-                                    "link": {
-                                        "color": {
-                                            "text": "currentColor"
-                                        }
-                                    }
-                                }
-                            },
-                            "core/pullquote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/quote": {
-                                "color": {
-                                    "text": "currentColor"
-                                }
-                            },
-                            "core/separator": {
-                                "color": {
-                                    "text": "color-mix(in srgb, currentColor 25%, transparent)"
-                                }
-                            }
-                        },
-                        "color": {
-                            "background": "var(--wp--preset--color--contrast)",
-                            "text": "var(--wp--preset--color--base)"
-                        },
-                        "elements": {
-                            "button": {
-                                ":hover": {
-                                    "color": {
-                                        "background": "color-mix(in srgb, var(--wp--preset--color--base) 80%, transparent)",
-                                        "text": "var(--wp--preset--color--contrast)"
-                                    }
-                                },
-                                "color": {
-                                    "background": "var(--wp--preset--color--base)",
-                                    "text": "var(--wp--preset--color--contrast)"
-                                }
-                            }
-                        }
-                    }
-                }
-            },
-            "core/heading": {
-                "variations": {
-                    "text-annotation": {
-                        "border": {
-                            "color": "currentColor",
-                            "radius": "16px",
-                            "style": "solid",
-                            "width": "1px"
-                        },
-                        "css": "width: fit-content",
-                        "elements": {
-                            "link": {
-                                "typography": {
-                                    "textDecoration": "none"
-                                }
-                            }
-                        },
-                        "spacing": {
-                            "padding": {
-                                "bottom": "0.25rem",
-                                "left": "0.6rem",
-                                "right": "0.6rem",
-                                "top": "0.2rem"
-                            }
-                        },
-                        "typography": {
-                            "fontSize": "var(--wp--preset--font-size--small)",
-                            "letterSpacing": "normal",
-                            "lineHeight": "1.5"
-                        }
-                    },
-                    "text-display": {
-                        "typography": {
-                            "fontSize": "clamp(2.2rem, 2.2rem + ((1vw - 0.2rem) * 1.333), 3.5rem)",
-                            "lineHeight": "1.2"
-                        }
-                    },
-                    "text-subtitle": {
-                        "typography": {
-                            "fontSize": "clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem)",
-                            "lineHeight": "1.2"
-                        }
-                    }
-                }
-            },
             "core/list": {
                 "css": "& li{margin-top: 0.5rem;}"
             },
@@ -2146,51 +516,6 @@
                 },
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--medium)"
-                }
-            },
-            "core/paragraph": {
-                "variations": {
-                    "text-annotation": {
-                        "border": {
-                            "color": "currentColor",
-                            "radius": "16px",
-                            "style": "solid",
-                            "width": "1px"
-                        },
-                        "css": "width: fit-content",
-                        "elements": {
-                            "link": {
-                                "typography": {
-                                    "textDecoration": "none"
-                                }
-                            }
-                        },
-                        "spacing": {
-                            "padding": {
-                                "bottom": "0.25rem",
-                                "left": "0.6rem",
-                                "right": "0.6rem",
-                                "top": "0.2rem"
-                            }
-                        },
-                        "typography": {
-                            "fontSize": "var(--wp--preset--font-size--small)",
-                            "letterSpacing": "normal",
-                            "lineHeight": "1.5"
-                        }
-                    },
-                    "text-display": {
-                        "typography": {
-                            "fontSize": "clamp(2.2rem, 2.2rem + ((1vw - 0.2rem) * 1.333), 3.5rem)",
-                            "lineHeight": "1.2"
-                        }
-                    },
-                    "text-subtitle": {
-                        "typography": {
-                            "fontSize": "clamp(1.5rem, 1.5rem + ((1vw - 0.2rem) * 0.392), 1.75rem)",
-                            "lineHeight": "1.2"
-                        }
-                    }
                 }
             },
             "core/post-comments-form": {
@@ -2238,38 +563,6 @@
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--small)",
                     "fontWeight": "600"
-                },
-                "variations": {
-                    "post-terms-1": {
-                        "elements": {
-                            "link": {
-                                ":hover": {
-                                    "typography": {
-                                        "textDecoration": "underline"
-                                    }
-                                },
-                                "border": {
-                                    "color": "var(--wp--preset--color--accent-6)",
-                                    "radius": "20px",
-                                    "style": "solid",
-                                    "width": "0.8px"
-                                },
-                                "spacing": {
-                                    "padding": {
-                                        "bottom": "5px",
-                                        "left": "10px",
-                                        "right": "10px",
-                                        "top": "5px"
-                                    }
-                                },
-                                "typography": {
-                                    "fontWeight": "400",
-                                    "lineHeight": "2.8",
-                                    "textDecoration": "none"
-                                }
-                            }
-                        }
-                    }
                 }
             },
             "core/post-title": {
@@ -2514,6 +807,8 @@
             },
             "heading": {
                 "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--raleway)",
+                    "fontStyle": "normal",
                     "fontWeight": "400",
                     "letterSpacing": "-0.1px",
                     "lineHeight": "1.125"
@@ -2538,8 +833,9 @@
             }
         },
         "typography": {
-            "fontFamily": "var(--wp--preset--font-family--manrope)",
+            "fontFamily": "var(--wp--preset--font-family--raleway)",
             "fontSize": "var(--wp--preset--font-size--large)",
+            "fontStyle": "normal",
             "fontWeight": "300",
             "letterSpacing": "-0.1px",
             "lineHeight": "1.4"
@@ -2582,5 +878,6 @@
             "title": "Sidebar"
         }
     ],
-    "version": 3
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/6.8/theme.json"
 }

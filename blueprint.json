@@ -1,0 +1,45 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/",
+	"login": true,
+	"steps": [
+		{
+			"step": "resetData"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/rewrite.php",
+			"data": "<?php /* Use pretty permalinks */ add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
+		},
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "url",
+				"url": "https://github.com/saulirajala/kontentti-sauli-verkkosivu/archive/refs/heads/main.zip"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+    {
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/postcontent.md",
+			"data": {
+				"resource": "url",
+        "url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/postcontent.md"
+			}
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp post create --post_title='Etusivu' --post_status='published' /wordpress/wp-content/postcontent.md"
+		}
+	],
+	"siteOptions": {
+		"blogname": "Kontentti-Sauli",
+		"blogdescription": "Foo bar",
+		"show_on_front": "page",
+		"page_on_front": "6",
+		"page_for_posts": "2"
+	},
+	"plugins": ["create-block-theme"]
+}
