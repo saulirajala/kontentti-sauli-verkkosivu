@@ -14,7 +14,7 @@
         },
         {
             "step": "activateTheme",
-            "theme": "my-block-theme"
+            "theme": "kontentti-sauli-verkkosivu-main"
         },
         {
             "step": "runPHP",
