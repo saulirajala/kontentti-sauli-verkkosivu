@@ -6,13 +6,12 @@
   },
   "steps": [
     {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "url",
-        "url": "https://github.com/saulirajala/kontentti-sauli-verkkosivu/archive/refs/heads/main.zip",
-        "themeFolderName": "kontentti-sauli-verkkosivu-main"
-      }
-    },
+			"step": "installTheme",
+			"themeData": {
+				"resource": "url",
+				"url": "https://github.com/saulirajala/kontentti-sauli-verkkosivu/archive/refs/heads/main.zip"
+			}
+		},
     {
       "step": "activateTheme",
       "theme": "kontentti-sauli-verkkosivu-main"
