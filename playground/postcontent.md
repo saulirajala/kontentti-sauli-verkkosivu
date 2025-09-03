@@ -90,8 +90,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Refet"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"backgroundColor":"accent-2","textColor":"base","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-base-color has-accent-2-background-color has-text-color has-background has-link-color" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"textAlign":"center","align":"wide","className":"is-pricing-title","style":{"spacing":{"margin":{"bottom":"0"},"padding":{"bottom":"var:preset|spacing|30"}}},"fontSize":"x-large"} -->
+<!-- wp:group {"metadata":{"name":"Refet"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"backgroundColor":"accent-2","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-accent-2-background-color has-text-color has-background has-link-color" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"textAlign":"center","align":"wide","className":"is-pricing-title","style":{"spacing":{"margin":{"bottom":"0"},"padding":{"bottom":"var:preset|spacing|30"}}},"fontSize":"x-large"} -->
 <h2 class="wp-block-heading alignwide has-text-align-center is-pricing-title has-x-large-font-size" style="margin-bottom:0;padding-bottom:var(--wp--preset--spacing--30)">Referenssi videoita</h2>
 <!-- /wp:heading -->
 
@@ -242,6 +242,10 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <p>Editoin valmiista podcast-videoistasi sovitun määrän lyhytvideoita, jotka sisältävät selkeät tekstitykset ja visuaaliset graafit. Näin saat yhdestä jaksosta somesisältöä, joka herättää kiinnostuksen ja tuovat podcastillesi uusia kuulijoita.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>Alta löydät muutaman esimerkkipaketin helpottamaan valintaa. Jos mikään näistä ei osu juuri sinun tarpeisiisi, ota rohkeasti yhteyttä – räätälöidään yhdessä sinulle sopiva kokonaisuus.</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:group {"metadata":{"name":"Sections"},"align":"wide","layout":{"type":"constrained","contentSize":"1100px"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":"Section"},"align":"wide"} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"metadata":{"name":"Items"},"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|70","left":"var:preset|spacing|40"}}}} -->
@@ -252,7 +256,7 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3,"className":"is-pricing-tier-name is-style-default","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"large"} -->
-<h3 class="wp-block-heading has-text-align-center is-pricing-tier-name is-style-default has-large-font-size" style="text-transform:uppercase">Starter</h3>
+<h3 class="wp-block-heading has-text-align-center is-pricing-tier-name is-style-default has-large-font-size" style="text-transform:uppercase">Starter-paketti</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
@@ -278,7 +282,7 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3,"className":"is-pricing-tier-name","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"large"} -->
-<h3 class="wp-block-heading has-text-align-center is-pricing-tier-name has-large-font-size" style="text-transform:uppercase">Volume</h3>
+<h3 class="wp-block-heading has-text-align-center is-pricing-tier-name has-large-font-size" style="text-transform:uppercase">Volume-paketti</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
@@ -301,8 +305,20 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Hinnoitelu muuten"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"accent-2","textColor":"base","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-base-color has-accent-2-background-color has-text-color has-background has-link-color"><!-- wp:paragraph -->
-<p>TODO: HINNASTO</p>
+<!-- wp:group {"metadata":{"name":"Hinnoitelu muuten"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"accent-1","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-accent-1-background-color has-text-color has-background has-link-color" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"textAlign":"center","align":"wide","className":"is-pricing-title","style":{"spacing":{"margin":{"bottom":"0"},"padding":{"bottom":"var:preset|spacing|30"}}},"fontSize":"x-large"} -->
+<h2 class="wp-block-heading alignwide has-text-align-center is-pricing-title has-x-large-font-size" style="margin-bottom:0;padding-bottom:var(--wp--preset--spacing--30)">Tuntihinnoittelu</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Voin työskennellä myös tuntipohjaisesti. Tuntihinta on 50 € / h (alv 0 %).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tuntihinnoittelu sopii erityisesti pienempiin projekteihin, yksittäisiin editointeihin tai tilanteisiin, joissa työn laajuus täsmentyy matkan varrella.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>🎬 Jokainen projekti on kuitenkin erilainen – kerro rohkeasti ideasi, niin teen sinulle selkeän arvion kustannuksista.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
