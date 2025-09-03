@@ -43,7 +43,7 @@
 		},
 		{
 			"step": "wp-cli",
-			"command": "wp media import wordpress/wp-content/Select-storage-method.png --post_id=4 --title='Select your storage method' --featured_image"
+			"command": "wp media import /wordpress/wp-content/Select-storage-method.png --post_id=4 --title='Select your storage method' --featured_image"
 		}
 	],
 	"siteOptions": {
