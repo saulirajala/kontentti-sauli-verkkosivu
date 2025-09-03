@@ -31,7 +31,7 @@
 		},
 		{
 			"step": "wp-cli",
-			"command": "wp post create --post_title='Etusivu' --post_status='published' /wordpress/wp-content/postcontent.md"
+			"command": "wp post create --post_type=page --post_title='Etusivu' --post_status='published' /wordpress/wp-content/postcontent.md"
 		}
 	],
 	"siteOptions": {
