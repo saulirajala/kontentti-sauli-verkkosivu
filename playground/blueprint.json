@@ -1,24 +1,25 @@
 {
-    "landingPage": "/",
-    "preferredVersions": {
-        "php": "8.2",
-        "wp": "latest"
+  "landingPage": "/",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeZipFile": {
+        "resource": "url",
+        "url": "https://github.com/saulirajala/kontentti-sauli-verkkosivu/archive/refs/heads/main.zip"
+      },
+      "themeFolderName": "kontentti-sauli-verkkosivu-main"
     },
-    "steps": [
-        {
-            "step": "installTheme",
-            "themeZipFile": {
-                "resource": "url",
-                "url": "https://github.com/saulirajala/kontentti-sauli-verkkosivu/archive/refs/heads/main.zip"
-            }
-        },
-        {
-            "step": "activateTheme",
-            "theme": "kontentti-sauli-verkkosivu-main"
-        },
-        {
-            "step": "runPHP",
-            "code": "<?php $id = wp_insert_post(['post_title' => 'Etusivu', 'post_content' => '<!-- wp:heading --><h2>Moi Playground!</h2><!-- /wp:heading -->', 'post_status' => 'publish', 'post_type' => 'page']); update_option('show_on_front', 'page'); update_option('page_on_front', $id); ?>"
-        }
-    ]
+    {
+      "step": "activateTheme",
+      "theme": "kontentti-sauli-verkkosivu-main"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php $id = wp_insert_post(['post_title' => 'Etusivu', 'post_content' => '<!-- wp:heading --><h2>Moi Playground!</h2><!-- /wp:heading -->', 'post_status' => 'publish', 'post_type' => 'page']); update_option('show_on_front', 'page'); update_option('page_on_front', $id); ?>"
+    }
+  ]
 }
