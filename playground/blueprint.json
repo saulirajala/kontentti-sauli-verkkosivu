@@ -22,20 +22,6 @@
 			}
 		},
 		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "wordpress.org/plugins",
-				"slug": "simply-static"
-			}
-		},
-		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "wordpress.org/plugins",
-				"slug": "sql-buddy"
-			}
-		},
-		{
 			"step": "writeFile",
 			"path": "/wordpress/wp-content/postcontent.md",
 			"data": {
