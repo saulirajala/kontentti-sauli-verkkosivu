@@ -3,7 +3,7 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--70);padding-right:0;padding-left:0"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"right":"0","left":"0"}}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="padding-right:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"50px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","layout":{"type":"default"}} -->
 <div class="wp-block-group has-base-color has-text-color has-link-color" style="margin-bottom:50px"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"xx-large","fontFamily":"raleway"} -->
-<h2 class="wp-block-heading has-raleway-font-family has-xx-large-font-size" style="font-style:normal;font-weight:600">Kontentti-Sauli – <br>selkeää tarinankerrontaa</h2>
+<h2 class="wp-block-heading has-raleway-font-family has-xx-large-font-size" style="font-style:normal;font-weight:600">Kontentti-Sauli – <br>teen videoita</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"200"},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"textColor":"charcoal-1","fontSize":"large","fontFamily":"raleway"} -->
@@ -19,8 +19,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"id":6,"scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"15px"},"spacing":{"margin":{"right":"0"}}}} -->
-<figure class="wp-block-image size-full has-custom-border" style="margin-right:0"><img src="https://playground.wordpress.net/scope:ambitious-old-school/wp-content/uploads/2025/09/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZnJzbm93X3N1bnNldF9oaWtpbmdfY29sZF8yLWltYWdlLWt5YmNwZzRxLmpwZw.webp" alt="" class="wp-image-6" style="border-radius:15px;object-fit:cover"/></figure>
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"id":6,"scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded","style":{"spacing":{"margin":{"right":"0"}}}} -->
+<figure class="wp-block-image size-full is-style-rounded" style="margin-right:0"><img src="http://127.0.0.1:9400/wp-content/uploads/2025/09/IMG_6470-edited-scaled.jpeg" alt="" class="wp-image-6" style="object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
