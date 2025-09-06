@@ -12,6 +12,11 @@
 			"data": "<?php /* Use pretty permalinks */ add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
 		},
 		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/hide-admin-bar.php",
+			"data": "<?php add_filter('show_admin_bar', '__return_false');"
+		},
+		{
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
@@ -56,10 +61,9 @@
 	],
 	"siteOptions": {
 		"blogname": "Kontentti-Sauli",
-		"blogdescription": "Foo bar",
+		"blogdescription": "selkeää tarinankerrontaa",
 		"show_on_front": "page",
-		"page_on_front": "6",
-		"page_for_posts": "2"
+		"page_on_front": "1"
 	},
 	"plugins": [
 		"create-block-theme"
