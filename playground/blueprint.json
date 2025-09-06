@@ -39,7 +39,7 @@
 		},
 		{
 			"step": "wp-cli",
-			"command": "wp post create --post_title='Etusivu' --post_type='page' --post_status='publish' /wordpress/wp-content/postcontent.md"
+			"command": "FRONTPAGE_ID=$(wp post create --post_title='Etusivu' --post_type='page' --post_status='publish' /wordpress/wp-content/postcontent.md --porcelain) && wp option update show_on_front 'page' && wp option update page_on_front $FRONTPAGE_ID"
 		},
 		{
 			"step": "wp-cli",
