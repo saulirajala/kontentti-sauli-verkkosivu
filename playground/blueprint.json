@@ -31,10 +31,10 @@
 		},
 		{
 			"step": "writeFile",
-			"path": "/wordpress/wp-content/IMG_6470-edited-scaled.jpeg",
+			"path": "/wordpress/wp-content/IMG_6470.jpeg",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/IMG_6470-edited-scaled.jpeg"
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/IMG_6470.jpeg"
 			}
 		},
 		{
@@ -43,7 +43,7 @@
 		},
 		{
 			"step": "wp-cli",
-			"command": "wp media import /wordpress/wp-content/IMG_6470-edited-scaled.jpeg --title='Omakuva' --preserve-filetime"
+			"command": "wp media import /wordpress/wp-content/IMG_6470.jpeg --title='Omakuva' --preserve-filetime"
 		}
 	],
 	"siteOptions": {
