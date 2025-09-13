@@ -38,7 +38,7 @@
 		},
 		{
 			"step": "writeFile",
-			"path": "/wordpress/wp-content/postcontent.md",
+			"path": "/wordpress/wp-content/postcontent.txt",
 			"data": {
 				"resource": "url",
 				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/main/playground/postcontent.txt"
@@ -54,7 +54,7 @@
 		},
 		{
 			"step": "wp-cli",
-			"command": "wp post create --post_title='Etusivu' --post_type='page' --post_status='publish' /wordpress/wp-content/postcontent.md --porcelain"
+			"command": "wp post create --post_title='Etusivu' --post_type='page' --post_status='publish' /wordpress/wp-content/postcontent.txt --porcelain"
 		},
 		{
 			"step": "wp-cli",

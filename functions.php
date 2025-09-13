@@ -32,3 +32,13 @@ add_action('save_post_page', function ($post_id, $post, $update) {
     $txt_file   = $theme_dir . "/playground/postcontent.txt";
     file_put_contents($txt_file, $post->post_content);
 }, 10, 3);
+
+add_filter('show_admin_bar', function () {
+    $host = $_SERVER['HTTP_HOST'] ?? '';
+
+    if ($host === 'playground.wordpress.net') {
+        return true;
+    }
+
+    return false;
+});
