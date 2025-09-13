@@ -269,7 +269,11 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
-<p class="has-text-align-center is-pricing-tier-price">395€ (79€ / lyhytvideo)</p>
+<p class="has-text-align-center is-pricing-tier-price">395€ (+alv)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
+<p class="has-text-align-center is-pricing-tier-price">eli 79€ / lyhytvideo</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -309,7 +313,11 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
-<p class="has-text-align-center is-pricing-tier-price">990€ (55€ / lyhytvideo)</p>
+<p class="has-text-align-center is-pricing-tier-price">990€ (+alv)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
+<p class="has-text-align-center is-pricing-tier-price">eli 55€ / lyhytvideo</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -331,7 +339,7 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Tuntihintani on 50 € / h (alv 0 %).</p>
+<p>Tuntihintani on 50€ (+alv) / h.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->
