@@ -43,11 +43,11 @@ add_action( 'save_post_page', function ( $post_id, $post, $update ) {
 	}
 
 	$theme_dir = get_stylesheet_directory();
-	$txt_file  = $theme_dir . "/playground/postcontent.txt";
+	$txt_file  = $theme_dir . "/playground/postcontent.php";
 
 	$current_site_url = get_site_url();
 	$post_content     = $post->post_content;
-	$post_content     = str_replace( $current_site_url, '.', $post_content );
+	$post_content     = str_replace( $current_site_url, '<?php echo get_site_url(); ?>', $post_content );
 	file_put_contents( $txt_file, $post_content );
 }, 10, 3 );
 
