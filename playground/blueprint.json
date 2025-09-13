@@ -12,11 +12,6 @@
 			"data": "<?php /* Use pretty permalinks */ add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
 		},
 		{
-			"step": "writeFile",
-			"path": "/wordpress/wp-content/mu-plugins/hide-admin-bar.php",
-			"data": "<?php add_filter('show_admin_bar', '__return_false');"
-		},
-		{
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
@@ -25,6 +20,26 @@
 			"options": {
 				"activate": true
 			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/postcontent.txt",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/main/playground/postcontent.txt"
+			}
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp post create --post_title='Etusivu' --post_type='page' --post_status='publish' /wordpress/wp-content/postcontent.txt --porcelain"
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp option update show_on_front 'page'"
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp option update page_on_front 1"
 		},
 		{
 			"step": "writeFile",
@@ -97,26 +112,6 @@
 		{
 			"step": "wp-cli",
 			"command": "wp media import /wordpress/wp-content/podcast-ocra.png --title='Podcast ocra' --preserve-filetime"
-		},
-		{
-			"step": "writeFile",
-			"path": "/wordpress/wp-content/postcontent.txt",
-			"data": {
-				"resource": "url",
-				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/main/playground/postcontent.txt"
-			}
-		},
-		{
-			"step": "wp-cli",
-			"command": "wp post create --post_title='Etusivu' --post_type='page' --post_status='publish' /wordpress/wp-content/postcontent.txt --porcelain"
-		},
-		{
-			"step": "wp-cli",
-			"command": "wp option update show_on_front 'page'"
-		},
-		{
-			"step": "wp-cli",
-			"command": "wp option update page_on_front 1"
 		}
 	],
 	"siteOptions": {
