@@ -31,7 +31,7 @@
 			"path": "/wordpress/wp-content/postcontent.txt",
 			"data": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/main/playground/postcontent.txt"
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/postcontent.txt"
 			}
 		},
 		{
