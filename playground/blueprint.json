@@ -27,6 +27,16 @@
 			}
 		},
 		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org\/plugins",
+				"slug": "gutenberg"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
 			"step": "writeFile",
 			"path": "/wordpress/wp-content/postcontent.md",
 			"data": {
