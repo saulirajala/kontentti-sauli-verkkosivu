@@ -27,22 +27,16 @@
 			}
 		},
 		{
-			"step": "installPlugin",
-			"pluginData": {
-				"resource": "wordpress.org\/plugins",
-				"slug": "gutenberg"
-			},
-			"options": {
-				"activate": true
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/podcast-blue.png",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/podcast-blue.png"
 			}
 		},
 		{
-			"step": "writeFile",
-			"path": "/wordpress/wp-content/postcontent.txt",
-			"data": {
-				"resource": "url",
-				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/main/playground/postcontent.txt"
-			}
+			"step": "wp-cli",
+			"command": "wp media import /wordpress/wp-content/podcast-blue.png --title='Podcast blue' --preserve-filetime"
 		},
 		{
 			"step": "writeFile",
@@ -50,6 +44,66 @@
 			"data": {
 				"resource": "url",
 				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/IMG_6470.jpeg"
+			}
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp media import /wordpress/wp-content/IMG_6470.jpeg --title='Omakuva' --preserve-filetime"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/podcast-red.png",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/podcast-red.png"
+			}
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp media import /wordpress/wp-content/podcast-red.png --title='Podcast red' --preserve-filetime"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/podcast-green.png",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/podcast-green.png"
+			}
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp media import /wordpress/wp-content/podcast-green.png --title='Podcast green' --preserve-filetime"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/podcast-lila.png",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/podcast-lila.png"
+			}
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp media import /wordpress/wp-content/podcast-lila.png --title='Podcast lila' --preserve-filetime"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/podcast-ocra.png",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/podcast-ocra.png"
+			}
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp media import /wordpress/wp-content/podcast-ocra.png --title='Podcast ocra' --preserve-filetime"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/postcontent.txt",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/main/playground/postcontent.txt"
 			}
 		},
 		{
@@ -63,19 +117,17 @@
 		{
 			"step": "wp-cli",
 			"command": "wp option update page_on_front 1"
-		},
-		{
-			"step": "wp-cli",
-			"command": "wp media import /wordpress/wp-content/IMG_6470.jpeg --title='Omakuva' --preserve-filetime"
 		}
 	],
 	"siteOptions": {
 		"blogname": "Kontentti-Sauli",
-		"blogdescription": "selkeää tarinankerrontaa",
+		"blogdescription": "Selkeää tarinankerrontaa",
 		"show_on_front": "page",
 		"page_on_front": "1"
 	},
 	"plugins": [
-		"create-block-theme"
+		"create-block-theme",
+		"gutenberg",
+		"autodescription"
 	]
 }
