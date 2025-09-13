@@ -20,3 +20,15 @@ add_filter( 'wp_theme_json_data_theme', function( $theme_json ) {
 
     return $theme_json;
 });
+
+add_action('save_post_page', function ($post_id, $post, $update) {
+    // Tallennetaan vain jos kyseessä on julkaistu sivu
+    if ($post->post_status !== 'publish') {
+        return;
+    }
+
+    // Polku teeman kansioon
+    $theme_dir = get_stylesheet_directory();
+    $txt_file   = $theme_dir . "/playground/postcontent.txt";
+    file_put_contents($txt_file, $post->post_content);
+}, 10, 3);
