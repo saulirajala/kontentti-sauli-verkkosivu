@@ -12,6 +12,11 @@
 			"data": "<?php /* Use pretty permalinks */ add_action( 'after_setup_theme', function() { global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); } );"
 		},
 		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/mu-plugins/simple-media-foldering.php",
+			"data": "<?php add_filter( 'pre_option_uploads_use_yearmonth_folders', '__return_zero');"
+		},
+		{
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",

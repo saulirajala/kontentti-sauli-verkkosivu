@@ -21,6 +21,22 @@ add_filter( 'wp_theme_json_data_theme', function( $theme_json ) {
     return $theme_json;
 });
 
+add_filter(
+	'the_seo_framework_meta_render_data',
+	function ( $tags_render_data ) {
+
+        $playground_url = $tags_render_data['canonical']['attributes']['href'];
+		$tags_render_data['canonical']['attributes']['href'] = 'https://kontentti.sauli.pro';
+		
+		$tags_render_data['og:url']['attributes']['content'] = str_replace($playground_url, 'https://kontentti.sauli.pro/', $tags_render_data['og:url']['attributes']['content']);
+		$tags_render_data['og:image:0']['attributes']['content'] = str_replace($playground_url, 'https://kontentti.sauli.pro/', $tags_render_data['og:image:0']['attributes']['content']);
+		$tags_render_data['twitter:image']['attributes']['content'] = str_replace($playground_url, 'https://kontentti.sauli.pro/', $tags_render_data['twitter:image']['attributes']['content']);
+		$tags_render_data['schema:graph']['content']['content'] = str_replace($playground_url, 'https://kontentti.sauli.pro/', $tags_render_data['schema:graph']['content']['content']);
+
+		return $tags_render_data;
+	},
+);
+
 add_action( 'save_post_page', function ( $post_id, $post, $update ) {
 	if ( $post->post_status !== 'publish' ) {
 		return;

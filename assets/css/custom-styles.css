@@ -35,6 +35,25 @@
     .refet .wp-block-columns>div {
         flex-basis: 100% !important;
     }
+
+    .pricing>div>div {
+        max-width: none !important;
+    }
+
+    .contact>div {
+        padding-top: 0 !important;
+        text-align: center;
+    }
+
+    .contact>div>.wp-block-column:first-child img {
+        object-fit: none !important;
+        width: 75% !important;
+        height: 75% !important;
+    }
+
+    .contact>div>.wp-block-column:last-child>div.is-content-justification-left {
+        justify-content: center !important;
+    }
 }
 
 @container post-content (max-width: 600px) {
