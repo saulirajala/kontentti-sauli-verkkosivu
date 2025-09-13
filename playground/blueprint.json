@@ -121,6 +121,18 @@
 		{
 			"step": "wp-cli",
 			"command": "wp language core install fi --activate"
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/postcontent.php",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/saulirajala/kontentti-sauli-verkkosivu/refs/heads/main/playground/postcontent.php"
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require_once '/wordpress/wp-load.php';ob_start();include '/wordpress/wp-content/postcontent.php';$post_content=ob_get_clean(); wp_insert_post(array('post_title' => 'Simple post from PHP', 'post_content'  => $post_content, 'post_author'   => 1, 'post_status' => 'publish')); ?>"
 		}
 	],
 	"siteOptions": {
