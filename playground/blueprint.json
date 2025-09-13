@@ -117,13 +117,18 @@
 		{
 			"step": "wp-cli",
 			"command": "wp media import /wordpress/wp-content/podcast-ocra.png --title='Podcast ocra' --preserve-filetime"
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp language core install fi --activate"
 		}
 	],
 	"siteOptions": {
 		"blogname": "Kontentti-Sauli",
 		"blogdescription": "Selkeää tarinankerrontaa",
 		"show_on_front": "page",
-		"page_on_front": "1"
+		"page_on_front": "1",
+		"timezone_string": "Europe/Helsinki"
 	},
 	"plugins": [
 		"create-block-theme",

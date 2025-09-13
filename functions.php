@@ -47,7 +47,7 @@ add_action( 'save_post_page', function ( $post_id, $post, $update ) {
 
 	$current_site_url = get_site_url();
 	$post_content     = $post->post_content;
-	$post_content     = str_replace( $current_site_url, '', $post_content );
+	$post_content     = str_replace( $current_site_url, '.', $post_content );
 	file_put_contents( $txt_file, $post_content );
 }, 10, 3 );
 
@@ -60,3 +60,13 @@ add_filter('show_admin_bar', function () {
 
     return false;
 });
+
+function remove_css_js_version( $src ) {
+    if( strpos( $src, '?ver=' ) ){
+        $src = remove_query_arg( 'ver', $src );
+    }
+
+    return $src;
+}
+add_filter( 'style_loader_src', 'remove_css_js_version', 9999 );
+add_filter( 'script_loader_src', 'remove_css_js_version', 9999 );

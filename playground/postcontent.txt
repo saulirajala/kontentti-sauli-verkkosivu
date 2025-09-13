@@ -18,7 +18,7 @@
 
 <!-- wp:group {"style":{"layout":{"columnStart":6,"rowStart":1,"columnSpan":2}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":3,"scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded","style":{"spacing":{"margin":{"right":"0"}}}} -->
-<figure class="wp-block-image size-full is-style-rounded" style="margin-right:0"><img src="/wp-content/uploads/IMG_6470.jpeg" alt="" class="wp-image-3" style="object-fit:cover"/></figure>
+<figure class="wp-block-image size-full is-style-rounded" style="margin-right:0"><img src="./wp-content/uploads/IMG_6470.jpeg" alt="" class="wp-image-3" style="object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -252,7 +252,7 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:0"><!-- wp:columns {"metadata":{"name":"Items"},"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|70","left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"metadata":{"name":"Item"},"style":{"spacing":{"blockGap":"40px"}}} -->
 <div class="wp-block-column"><!-- wp:image {"id":7,"sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":[]}} -->
-<figure class="wp-block-image aligncenter size-full"><img src="/wp-content/uploads/podcast-ocra.png" alt="" class="wp-image-7"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="./wp-content/uploads/podcast-ocra.png" alt="" class="wp-image-7"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"fontSize":"medium","layout":{"type":"default"}} -->
@@ -287,15 +287,15 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <!-- wp:column {"metadata":{"name":"Item"},"style":{"spacing":{"blockGap":"40px"}}} -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":7,"scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":[]}} -->
-<figure class="wp-block-image size-full"><img src="/wp-content/uploads/podcast-ocra.png" alt="" class="wp-image-7" style="object-fit:cover"/></figure>
+<figure class="wp-block-image size-full"><img src="./wp-content/uploads/podcast-ocra.png" alt="" class="wp-image-7" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":6,"scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":[],"spacing":{"margin":{"left":"-50px"}}}} -->
-<figure class="wp-block-image size-full" style="margin-left:-50px"><img src="/wp-content/uploads/podcast-lila.png" alt="" class="wp-image-6" style="object-fit:cover"/></figure>
+<figure class="wp-block-image size-full" style="margin-left:-50px"><img src="./wp-content/uploads/podcast-lila.png" alt="" class="wp-image-6" style="object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":4,"scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":[],"spacing":{"margin":{"left":"-50px"}}}} -->
-<figure class="wp-block-image size-full" style="margin-left:-50px"><img src="/wp-content/uploads/podcast-red.png" alt="" class="wp-image-4" style="object-fit:cover"/></figure>
+<figure class="wp-block-image size-full" style="margin-left:-50px"><img src="./wp-content/uploads/podcast-red.png" alt="" class="wp-image-4" style="object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -364,22 +364,26 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <div class="wp-block-columns alignwide has-white-background-color has-background" style="border-style:none;border-width:0px;padding-right:0;padding-left:0"><!-- wp:column {"style":{"spacing":{"padding":{"right":"0","left":"0"}}}} -->
 <div class="wp-block-column" style="padding-right:0;padding-left:0"><!-- wp:group {"style":{"border":{"radius":{"topLeft":"160px","topRight":"0px","bottomLeft":"0px","bottomRight":"160px"}},"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"ti-bg-alt","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group has-ti-bg-alt-background-color has-background" style="border-top-left-radius:160px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:160px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:image {"id":3,"width":"466px","height":"675px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-default"} -->
-<figure class="wp-block-image aligncenter size-full is-resized is-style-default"><img src="/wp-content/uploads/IMG_6470.jpeg" alt="" class="wp-image-3" style="object-fit:cover;width:466px;height:675px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized is-style-default"><img src="./wp-content/uploads/IMG_6470.jpeg" alt="" class="wp-image-3" style="object-fit:cover;width:466px;height:675px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:paragraph -->
-<p><strong>Kontentti-Sauli</strong></p>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"bottom":"0"}}},"fontSize":"medium"} -->
+<p class="has-medium-font-size" style="margin-bottom:0;font-style:normal;font-weight:400">Y-tunnus: 3547733-5</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Sauli Rajala</h2>
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
+<h2 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--20)">Kontentti-Sauli</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Y-tunnus: 3547733-5</p>
+<p>Moi! Olen Sauli ja asun Jyväskylässä vaimon ja koiran kanssa. Teen oman toimen ohella videoeditointia ja retkeilyaiheista sisältöä YouTubeen ja Instagramiin. Innostun hyvistä tarinoista, itsensä voittamisesta ja siitä, että voin olla avuksi muille. Ota rohkeasti yhteyttä, jos kaipaat tekijää videoille tai kumppania kaupalliseen yhteistyöhön.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"medium"} -->
+<p class="has-medium-font-size">- Sauli Rajala</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left"}} -->
