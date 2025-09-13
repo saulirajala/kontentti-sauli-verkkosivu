@@ -21,7 +21,7 @@ $site_url = get_site_url(); ?>
 
 		<!-- wp:group {"style":{"layout":{"columnStart":6,"rowStart":1,"columnSpan":2}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
 		<div class="wp-block-group"><!-- wp:image {"id":3,"scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded","style":{"spacing":{"margin":{"right":"0"}}}} -->
-			<figure class="wp-block-image size-full is-style-rounded" style="margin-right:0"><img src="<?php echo esc_url($site_url); ?>wp-content/uploads/IMG_6470.jpeg" alt="" class="wp-image-3" style="object-fit:cover"/></figure>
+			<figure class="wp-block-image size-full is-style-rounded" style="margin-right:0"><img src="<?php echo esc_url($site_url); ?>/wp-content/uploads/IMG_6470.jpeg" alt="" class="wp-image-3" style="object-fit:cover"/></figure>
 			<!-- /wp:image --></div>
 		<!-- /wp:group --></div>
 	<!-- /wp:group -->
