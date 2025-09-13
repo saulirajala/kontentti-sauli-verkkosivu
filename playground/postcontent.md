@@ -100,8 +100,8 @@
 <!-- wp:columns {"metadata":{"name":"Pitkät videot"},"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"},"padding":{"top":"var:preset|spacing|20"}}}} -->
 <div class="wp-block-columns alignwide" style="margin-bottom:var(--wp--preset--spacing--60);padding-top:var(--wp--preset--spacing--20)"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"45%"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}},"typography":{"textTransform":"uppercase"}}} -->
-<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0;text-transform:uppercase">Retkivideo Meekonlaaksosta</h3>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0">Retkivideo Meekonlaaksosta</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"medium"} -->
@@ -122,8 +122,8 @@ https://www.youtube.com/watch?v=pPWMFlKVlrw
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"layout":{"selfStretch":"fixed","flexSize":"45%"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}},"typography":{"textTransform":"uppercase"}}} -->
-<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0;text-transform:uppercase">Riippumaton arvosteluvideo</h3>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0">Riippumaton arvosteluvideo</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"medium"} -->
@@ -146,8 +146,8 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <!-- wp:columns {"metadata":{"name":"Lyhyet videot"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}},"typography":{"textTransform":"uppercase"}}} -->
-<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0;text-transform:uppercase">Vinkit riippumattoiluun: mitkä ovat puunhalaajat?</h3>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0">Vinkit riippumattoiluun: mitkä ovat puunhalaajat?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -167,8 +167,8 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}},"typography":{"textTransform":"uppercase"}}} -->
-<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0;text-transform:uppercase">Pyöräilypäivä Himangalla</h3>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0">Pyöräilypäivä Himangalla</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -188,8 +188,8 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}},"typography":{"textTransform":"uppercase"}}} -->
-<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0;text-transform:uppercase">Huumorivideo: kännykän kuvat</h3>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"className":"is-pricing-title","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"padding":{"top":"0","bottom":"0"}}}} -->
+<h3 class="wp-block-heading has-text-align-left is-pricing-title" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20);padding-top:0;padding-bottom:0">Huumorivideo: kännykän kuvat</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -208,10 +208,10 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:group {"metadata":{"name":"Somekanavat"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p>Lisää referenssivideoita löydät somekanaviltani</p>
-<!-- /wp:paragraph -->
+<!-- wp:group {"metadata":{"name":"Somekanavat"},"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"level":3,"align":"wide"} -->
+<h3 class="wp-block-heading alignwide">Lisää referenssivideoita löydät somekanaviltani</h3>
+<!-- /wp:heading -->
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
@@ -255,17 +255,21 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <figure class="wp-block-image aligncenter size-full"><img src="http://127.0.0.1:9400/wp-content/uploads/2025/09/podcast-ocra.png" alt="" class="wp-image-57"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3,"className":"is-pricing-tier-name is-style-default","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"large"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"fontSize":"medium","layout":{"type":"default"}} -->
+<div class="wp-block-group has-medium-font-size"><!-- wp:heading {"textAlign":"center","level":3,"className":"is-pricing-tier-name is-style-default","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"large"} -->
 <h3 class="wp-block-heading has-text-align-center is-pricing-tier-name is-style-default has-large-font-size" style="text-transform:uppercase">Starter-paketti</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
-<p class="has-text-align-center is-pricing-tier-price">399€ per jakso (n. 80€ / lyhytvideo)</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Jakson kesto max 40min</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","className":"is-pricing-tier-service","style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-<p class="has-text-align-center is-pricing-tier-service" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">Sisältää 1 podcast-jakson (max. kesto n. 40min) käsittelyn, josta tuotetaan 5kpl 10–30 sek lyhytvideoita (tekstitykset + grafiikka)</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Saat 5kpl lyhytvideoita yhdestä podcast jaksosta.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
+<p class="has-text-align-center is-pricing-tier-price">395€ (79€ / lyhytvideo)</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -291,17 +295,21 @@ https://www.youtube.com/watch?v=C1v4NCSmtSE
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3,"className":"is-pricing-tier-name","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"large"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"fontSize":"medium","layout":{"type":"default"}} -->
+<div class="wp-block-group has-medium-font-size"><!-- wp:heading {"textAlign":"center","level":3,"className":"is-pricing-tier-name","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"large"} -->
 <h3 class="wp-block-heading has-text-align-center is-pricing-tier-name has-large-font-size" style="text-transform:uppercase">Volume-paketti</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
-<p class="has-text-align-center is-pricing-tier-price">999€ / kolme jaksoa</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Jakson kesto max 40min</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","className":"is-pricing-tier-service","style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-<p class="has-text-align-center is-pricing-tier-service" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">Sisältää kolmen podcast-jakson käsittelyn. Kustakin jaksosta<br>6 kpl 10–30 sek lyhytvideoita (tekstitykset + grafiikka)</p>
+<p class="has-text-align-center is-pricing-tier-service" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">Saat yhteensä 18kpl lyhytvideoita kolmesta podcast-jaksosta</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","className":"is-pricing-tier-price"} -->
+<p class="has-text-align-center is-pricing-tier-price">990€ (55€ / lyhytvideo)</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
